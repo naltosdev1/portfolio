@@ -40,8 +40,8 @@ export default function Project() {
                   </h2>
                   <h2 className="relative flex text-white text-xl font-normal font-roboto mt-4 ml-4">
                     Langage utilisé: <a className="text-blue-400 ml-2 font-semibold">{project.langage} & NextJS</a>
-                    <Image className="w-12 absolute left-0 top-12 transition duration-150 ease-in-out hover:skew-y-12" src={php} />
-                    <Image className="w-12 absolute left-16 top-12 transition duration-150 ease-in-out hover:skew-y-12" src={next} />
+                    <Image className="w-12 absolute left-0 top-12 transition duration-150 ease-in-out hover:skew-y-12" src={php} alt='Une image'/>
+                    <Image className="w-12 absolute left-16 top-12 transition duration-150 ease-in-out hover:skew-y-12" src={next} alt='Une image'/>
                   </h2>
                 </div>
               ))}

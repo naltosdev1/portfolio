@@ -5,7 +5,7 @@ export default function About(){
     return(
         <>
         <div className='mr-0 mb-4'>
-            <Image className='h-20 w-20 rounded-full border-solid border-2 border-blue-500 transition duration-150 ease-in-out hover:rotate-180' src={profilePicture} />
+            <Image className='h-20 w-20 rounded-full border-solid border-2 border-blue-500 transition duration-150 ease-in-out hover:rotate-180' src={profilePicture} alt='Une image' />
         </div>
         <div className='w-auto sm:w-auto'>
             <h1 className='text-white text-3xl font-semibold font-roboto pb-1'>Hi, I'm Naltos.</h1>
